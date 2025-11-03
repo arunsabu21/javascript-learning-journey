@@ -167,3 +167,21 @@ console.log(y)
 let str3 = "Apple, Banana, Kiwi";
 let x1 = str3.substr(-4);
 console.log(x1)
+
+
+/*
+Converting to Upper and Lower Case
+A string is converted to upper case with toUpperCase():
+
+A string is converted to lower case with toLowerCase():
+*/
+
+// JavaScript String toUpperCase()
+let text8 = "Hello World!";
+let upperText = text8.toUpperCase();
+console.log(upperText)
+
+// JavaScript String toLowerCase()
+let letters = "Hello World!";
+let lowerCase = letters.toLowerCase();
+console.log(lowerCase)

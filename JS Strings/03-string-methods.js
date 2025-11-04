@@ -255,3 +255,85 @@ console.log("Length e1 = " + e1.length + " " + "Length e2 = " + e2.length)
 | `trimEnd()`   | End only            | ✅ Start       |
 */
 
+
+/*
+JavaScript String padStart()
+The padStart() method pads a string from the start.
+
+It pads a string with another string (multiple times) until it reaches a given length.
+*/
+
+let p = "5";
+let ps = p.padStart(4,"0");
+console.log(ps)
+
+// Pad a string with "x" until it reaches the length 4:
+let p1 = "5";
+let ps1 = p1.padStart(4,"x")
+console.log(ps1)
+
+/*
+Note
+The padStart() method is a string method.
+
+To pad a number, convert the number to a string first.
+*/
+let numb = 5;
+let n = numb.toString();
+console.log((n.padStart(4,0)))
+
+/*
+JavaScript String padEnd()
+The padEnd() method pads a string from the end.
+
+It pads a string with another string (multiple times) until it reaches a given length.
+*/
+let pe = "5";
+r1 = pe.padEnd(4,"0");
+console.log(r1)
+
+let pe1 = "5";
+r2 = pe1.padEnd(4,"x");
+console.log(r2)
+
+/*
+JavaScript String repeat()
+The repeat() method returns a string with a number of copies of a string.
+
+The repeat() method returns a new string.
+
+The repeat() method does not change the original string.
+*/
+let sample = "Hello World!";
+let rep = sample.repeat(2)
+console.log(rep)
+
+/*
+Replacing String Content
+The replace() method replaces a specified value with another value in a string:
+*/
+
+let sample1 = "Please visit Microsoft";
+let newText = sample1.replace("Microsoft", "W3 Schools");
+console.log(newText)
+
+// By default, the replace() method replaces only the first match:
+let sample2 = "Please visit Microsoft and Microsoft";
+let newT = sample2.replace("Microsoft", "W3 Schools");
+console.log(newT)
+
+// By default, the replace() method is case sensitive. Writing MICROSOFT (with upper-case) will not work:
+let sample3 = "Please visit Microsoft";
+let newTe = sample3.replace("MICROSOFT", "W3 Schools");
+console.log(newTe)
+
+// To replace case insensitive, use a regular expression with an /i flag (insensitive):
+let sample4 = "Please visit Microsoft";
+let newTex = sample4.replace(/MICROSOFT/i, "W3 Schools")
+console.log(newTex)
+
+// To replace all matches, use a regular expression with a /g flag (global match):
+let sample5 = "Please visit Microsoft and Microsoft";
+let newtext = sample5.replace(/Microsoft/g, "W3 Schools");
+console.log(newtext)
+

@@ -337,3 +337,9 @@ let sample5 = "Please visit Microsoft and Microsoft";
 let newtext = sample5.replace(/Microsoft/g, "W3 Schools");
 console.log(newtext)
 
+// JavaScript String ReplaceAll()
+// In 2021, JavaScript introduced the string method replaceAll():
+let sen = "I love cats. Cats are very easy to love. Cats are very popular.";
+sen = sen.replaceAll("Cats", "Dogs");
+sen = sen.replaceAll("cats", "dogs");
+console.log(sen)

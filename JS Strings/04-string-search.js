@@ -46,3 +46,40 @@ let text6 = "please locate where 'locate' occurs!";
 let index6 = text6.search("locate");
 console.log(index6)
 
+// JavaScript String match()
+// The match() method returns an array containing the results of matching a string against a string (or a regular expression).
+
+// Perform a search for "ain":
+let text7 = "The rain in SPAIN stays mainly in the plain";
+const myArr = text7.match("ain");
+console.log(myArr.length + " " + myArr)
+
+// Perform a search for "ain":
+let text8 = "The rain in SPAIN stays mainly in the plain";
+const myArr1 = text8.match(/ain/);
+console.log(myArr1.length + " " + myArr1)
+
+// Perform a global search for "ain":
+let text9 = "The rain in SPAIN stays mainly in the plain";
+const myArr2 = text9.match(/ain/g);
+console.log(myArr2.length + " " + myArr2)
+
+// Perform a global, case-insensitive search for "ain":
+let text10 = "The rain in SPAIN stays mainly in the plain";
+const myArr3 = text10.match(/ain/gi);
+console.log(myArr3.length + " " + myArr3)
+
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*
+JavaScript String matchAll()
+The matchAll() method returns an iterator containing the results of matching a string against a string (or a regular expression).
+*/
+// let word = "I love cats. Cats are very easy to love. Cats are very popular.";
+// const iterator = word.matchAll("Cats");
+// console.log(Array.from(iterator))
+
+// If the parameter is a regular expression, the global flag (g) must be set, otherwise a TypeError is thrown.
+let word1 = "I love cats. Cats are very easy to love. Cats are very popular.";
+const iterator1 = word1.matchAll(/Cats/g);
+console.log(Array.from(iterator1))

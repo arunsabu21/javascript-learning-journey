@@ -75,11 +75,70 @@ console.log(myArr3.length + " " + myArr3)
 JavaScript String matchAll()
 The matchAll() method returns an iterator containing the results of matching a string against a string (or a regular expression).
 */
-// let word = "I love cats. Cats are very easy to love. Cats are very popular.";
-// const iterator = word.matchAll("Cats");
-// console.log(Array.from(iterator))
+let word = "I love cats. Cats are very easy to love. Cats are very popular.";
+const iterator = word.matchAll("Cats");
+console.log(Array.from(iterator))
 
 // If the parameter is a regular expression, the global flag (g) must be set, otherwise a TypeError is thrown.
 let word1 = "I love cats. Cats are very easy to love. Cats are very popular.";
 const iterator1 = word1.matchAll(/Cats/g);
 console.log(Array.from(iterator1))
+
+// If you want to search case insensitive, the insensitive flag (i) must be set:
+let word2 = "I love cats. Cats are very easy to love. Cats are very popular.";
+const iterator2 = word2.matchAll(/Cats/gi);
+console.log(Array.from(iterator2))
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*
+JavaScript String includes()
+The includes() method returns true if a string contains a specified value.
+
+Otherwise it returns false.
+*/
+
+// Check if a string includes "world":
+let inc = "Hello world, welcome to the universe.";
+let check = inc.includes("world");
+console.log(check)
+
+// Check if a string includes "world" starting from position 12:
+let inc1 = "Hello world, welcome to the universe.";
+let check1 = inc1.includes("world",12);
+console.log(check1)
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*
+JavaScript String startsWith()
+The startsWith() method returns true if a string begins with a specified value.
+
+Otherwise it returns false:
+*/
+let s = "Hello world, welcome to the universe.";
+let res = s.startsWith("Hello");
+console.log(res)
+
+// Returns false:
+let s1 = "Hello world, welcome to the universe.";
+let res1 = s1.startsWith("world");
+console.log(res1)
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*
+JavaScript String endsWith()
+The endsWith() method returns true if a string ends with a specified value.
+
+Otherwise it returns false:
+*/
+
+let ew = "John Doe";
+let answer = ew.endsWith("Doe");
+console.log(answer)
+
+// Check in the 11 first characters of a string ends with "world":
+let ew1 = "Hello world, welcome to the universe.";
+let answer1 = ew1.endsWith("world", 11);
+console.log(answer1)

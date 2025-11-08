@@ -6,6 +6,7 @@ Inspired by tutorials such as [W3Schools JavaScript Tutorial](https://www.w3scho
 
 ---
 
+
 ## Topics Covered
 
 **Fundamentals**
@@ -13,6 +14,23 @@ Inspired by tutorials such as [W3Schools JavaScript Tutorial](https://www.w3scho
 - Operators & Expressions
 - Conditional Statements (`if`, `else`, `switch`)
 - Loops (`for`, `while`, `do-while`, `break`, `continue`)
+
+**Conditions**
+- if and else statements
+- Nested Conditions
+- Ternary operator usage
+- switch statements
+- Boolean logic and evaluation
+
+**Loops**
+- for loops
+- while and do-while loop
+- Loop control: break & continue
+
+**Numbers**
+- Number Methods
+- Number Conversions
+- Working with different bases (binary, octal, hexadecimal, etc.)
 
 **Strings**
 - String Methods (`slice`, `substring`, `substr`)
@@ -32,12 +50,16 @@ Inspired by tutorials such as [W3Schools JavaScript Tutorial](https://www.w3scho
 
 ```
 JS Learning/
-├── JS Basics/           # Core JavaScript fundamentals
-├── JS Conditions/       # Conditional statements examples
-├── JS Loops/            # Looping examples
-├── JS Strings/          # String operations and use cases
-├── sample_template.html # HTML test template
-└── README.md
+│
+├── JS Basics/           # Fundamental JavaScript concepts
+├── JS Conditions/       # Conditional logic examples
+├── JS Loops/            # Looping and flow control
+├── JS Numbers/          # Number operations and methods
+├── JS Strings/          # String operations, methods, and patterns
+│
+├── sample_template.html # General HTML testing file
+└── README.md            # Project documentation
+
 ```
 
 ---
@@ -50,5 +72,13 @@ node filename.js
 ```
 
 ---
+
+## Purpose
+
+The intention behind this repository is to:
+- Track personal learning progress
+- Build a solid foundational understanding of JavaScript
+- Maintain well-organized reference examples
+- Provide a clean, accessible structure for future review
 
 Feel free to explore, fork, and contribute. Happy learning!

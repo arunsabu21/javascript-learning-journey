@@ -43,7 +43,17 @@ Inspired by resources like [W3Schools JavaScript Tutorial](https://www.w3schools
 - `04-break.js` — Breaking out of loops
 - `05-continue.js` — Skipping iterations with continue
 
-### **4. JS Numbers** - Numeric Operations & Methods
+### **4. JS Functions** - Function Concepts
+- `01-function.js` — Function declaration and invocation
+- `02-function_invocation.js` — Calling functions and return values
+- `03-arrow_functions.js` — Arrow function syntax and `this` behavior
+- `04-local_variables.js` — Local scope inside functions
+- `05-parameters_vs_arguments.js` — Difference between parameters and arguments
+- `06-function_parameters.js` — Default and named parameter patterns
+- `07-rest_parameter.js` — Rest parameters (`...args`)
+- `08-arguments_object.js` — The `arguments` object in functions
+
+### **5. JS Numbers** - Numeric Operations & Methods
 #### Core Number Files:
 - `01-numbers.js` — Number basics and data types
 - `02-number-methods.js` — Overview of Number methods
@@ -82,12 +92,15 @@ Inspired by resources like [W3Schools JavaScript Tutorial](https://www.w3schools
 - `07-POSITIVE_INFINITY.js` — Positive infinity constant
 - `08-NEGATIVE_INFINITY.js` — Negative infinity constant
 
-### **5. JS Strings** - String Operations & Methods
+### **6. JS Strings** - String Operations & Methods
 - `01-strings.js` — String basics and creation
 - `02-string-template.js` — Template literals (backticks)
 - `03-string-methods.js` — Common string methods (length, indexOf, etc.)
 - `04-string-search.js` — Search methods (match, includes, search)
 - `05-string-reference.js` — Complete string methods reference
+
+### **7. JS Objects** - Object Basics
+- `01-objects.js` — Creating and working with objects, properties, methods
 
 ---
 
@@ -121,6 +134,16 @@ JS Learning/
 │   ├── 04-break.js
 │   └── 05-continue.js
 │
+├── 📂 JS Functions/
+│   ├── 01-function.js
+│   ├── 02-function_invocation.js
+│   ├── 03-arrow_functions.js
+│   ├── 04-local_variables.js
+│   ├── 05-parameters_vs_arguments.js
+│   ├── 06-function_parameters.js
+│   ├── 07-rest_parameter.js
+│   └── 08-arguments_object.js
+│
 ├── 📂 JS Numbers/
 │   ├── 01-numbers.js through 13-isSafeInteger-method.js
 │   ├── 📂 BigInt/
@@ -150,6 +173,9 @@ JS Learning/
 │   ├── 03-string-methods.js
 │   ├── 04-string-search.js
 │   └── 05-string-reference.js
+│
+├── 📂 JS Objects/
+│   ├── 01-objects.js
 │
 ├── sample_template.html    # HTML testing template
 └── README.md               # This documentation file

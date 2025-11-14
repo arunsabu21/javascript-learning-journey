@@ -26,3 +26,22 @@ When an object is declared with const, you cannot later reassign it to point to 
 
 It does not make the object unchangeable. You can still modify its properties and values.
 */
+
+// How to Create a JavaScript Object
+// An object literal is a concise way to create an object.
+
+// An object literal is a list of key : value pairs inside curly braces { }:
+
+// {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}
+// In object terms, the key : value pairs are the object properties.
+
+// Example
+// All the examples below, create a JavaScript object with 4 properties.
+
+// Create an Object:
+const person = {firstName: "John", lastName: "Doe", age:50, eyeColor: "blue"};
+// Display Data from the Object:
+console.log(person);
+console.log(person.firstName + " is " + person.age + " Years old ");
+console.log(typeof(person));
+// Spaces and line breaks are not important. An object literal can span multiple lines.

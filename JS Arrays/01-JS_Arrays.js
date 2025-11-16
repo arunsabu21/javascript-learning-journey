@@ -17,3 +17,23 @@ Dynamic size: Arrays can grow or shrink as elements are added or removed.
 
 Heterogeneous: Arrays can store elements of different data types (numbers, strings, objects and other arrays).
 */
+
+// You can also create an empty array, and provide elements later:
+const Cars =[];
+Cars[0] = "Saab";
+Cars[1] = "Volvo";
+Cars[2] = "BMW";
+console.log(Cars);
+
+// Using the JavaScript Keyword new
+const CarsList = new Array("Saab", "Volvo", "BMW");
+console.log(CarsList);
+
+/*
+Note
+The two examples above do exactly the same.
+
+There is no need to use new Array().
+
+For simplicity, readability and execution speed, use the array literal method.
+*/

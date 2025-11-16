@@ -102,6 +102,13 @@ Inspired by resources like [W3Schools JavaScript Tutorial](https://www.w3schools
 ### **7. JS Objects** - Object Basics
 - `01-objects.js` — Creating and working with objects, properties, methods
 
+### **8. JS Arrays** - Array Basics & Methods
+- `01-JS_Arrays.js` — Array creation and basics
+- `02-accessing_array_elements.js` — Indexing and accessing values
+- `03-change_array_element.js` — Modifying array elements
+- `04-array_to_string.js` — Converting arrays to strings
+- `properties-and-methods/01-properties_and_methods.js` — Array properties and common methods
+
 ---
 
 ## 📁 Folder Structure
@@ -174,9 +181,33 @@ JS Learning/
 │   ├── 04-string-search.js
 │   └── 05-string-reference.js
 │
+├── 📂 JS Arrays/
+│   ├── 01-JS_Arrays.js
+│   ├── 02-accessing_array_elements.js
+│   ├── 03-change_array_element.js
+│   ├── 04-array_to_string.js
+│   └── 📂 properties-and-methods/
+│       └── 01-properties_and_methods.js
+│
 ├── 📂 JS Objects/
 │   ├── 01-objects.js
-│
+│   ├── 02-using_new_keyword.js
++│   ├── 📂 display-objects/
+│   │   ├── 01-display_objects.js
+│   │   ├── 02-using_object_values.js
+│   │   ├── 03-using_object_entries.js
+│   │   └── 04-using_JSON_stringify.js
+│   ├── 📂 object-methods/
+│   │   ├── 01-object_methods.js
+│   │   ├── 02-accessing_object_methods.js
+│   │   ├── 03-adding_a_method.js
++│   │   └── 04-using_js_methods.js
++│   └── 📂 object-properties/
++│       ├── 01-object_properties.js
++│       ├── 02-property_default_values.js
++│       ├── 03-delete_properties.js
++│       └── 04-nested_objects.js
+
 ├── sample_template.html    # HTML testing template
 └── README.md               # This documentation file
 ```

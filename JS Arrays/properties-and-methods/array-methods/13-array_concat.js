@@ -26,3 +26,8 @@ const array3 = ["Robin", "Morgan"];
 
 const result = array1.concat(array2,array3);
 console.log(result);
+
+// The concat() method can merge string values to arrays:
+const array = ["Emil", "Tobias", "Linus"];
+const result1 = array.concat("Peter");
+console.log(result1);

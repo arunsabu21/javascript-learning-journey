@@ -12,3 +12,7 @@ console.log(fruits);
 
 fruits.splice(2, 0, "Lemon", "Kiwi");
 console.log(fruits);
+
+const fruitsList = ["Banana", "Orange", "Apple", "Mango"];
+fruitsList.splice(2, 2, "Lemon", "Kiwi");
+console.log(fruitsList);
